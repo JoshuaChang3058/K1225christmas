@@ -278,7 +278,7 @@ music.setTempo(199)
 basic.pause(1000)
 basic.forever(function () {
     light2 = input.lightLevel()
-    if (light2 > 50) {
+    if (light2 > 80) {
         basic.showString("2021 Joe .")
         basic.showLeds(`
             . . . . .
